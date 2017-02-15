@@ -19,6 +19,7 @@
 		7604639B1E532FF1004E5C76 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604639A1E532FF1004E5C76 /* YYWeakProxy.m */; };
 		7604639F1E53FB6D004E5C76 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604639E1E53FB6D004E5C76 /* ProgressView.m */; };
 		760463A41E540123004E5C76 /* SlideGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 760463A31E540123004E5C76 /* SlideGestureRecognizer.m */; };
+		76A04E321E54CC8A00846B07 /* effect.gif in Resources */ = {isa = PBXBuildFile; fileRef = 76A04E311E54CC8A00846B07 /* effect.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		760463A01E53FBC5004E5C76 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		760463A21E540123004E5C76 /* SlideGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideGestureRecognizer.h; sourceTree = "<group>"; };
 		760463A31E540123004E5C76 /* SlideGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideGestureRecognizer.m; sourceTree = "<group>"; };
+		76A04E311E54CC8A00846B07 /* effect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = effect.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				760463901E52F6ED004E5C76 /* 周杰伦 - 借口.mp3 */,
 				7604635E1E52F6A1004E5C76 /* main.m */,
+				76A04E311E54CC8A00846B07 /* effect.gif */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				7604636D1E52F6A1004E5C76 /* LaunchScreen.storyboard in Resources */,
 				7604636A1E52F6A1004E5C76 /* Assets.xcassets in Resources */,
+				76A04E321E54CC8A00846B07 /* effect.gif in Resources */,
 				760463681E52F6A1004E5C76 /* Main.storyboard in Resources */,
 				760463911E52F6ED004E5C76 /* 周杰伦 - 借口.mp3 in Resources */,
 			);
@@ -563,6 +567,7 @@
 				760463891E52F6A1004E5C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7604638A1E52F6A1004E5C76 /* Build configuration list for PBXNativeTarget "SlideMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +576,7 @@
 				7604638C1E52F6A1004E5C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7604638D1E52F6A1004E5C76 /* Build configuration list for PBXNativeTarget "SlideMusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +585,7 @@
 				7604638F1E52F6A1004E5C76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
