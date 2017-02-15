@@ -191,7 +191,9 @@
 
 - (IBAction)playOrPause:(id)sender {
     
+    
     UIButton * button = (UIButton *)sender;
+    
     button.selected = !button.selected;
     
     if(button.selected)
