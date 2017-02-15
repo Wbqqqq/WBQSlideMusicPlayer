@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="七里香" translatesAutoresizingMaskIntoConstraints="NO" id="TlF-tH-TzE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="kd5-3g-sbb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <items/>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oval" translatesAutoresizingMaskIntoConstraints="NO" id="Lyf-JR-RB0">
+                                <rect key="frame" x="73" y="169" width="230" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="JEk-6X-Xd8"/>
+                                    <constraint firstAttribute="height" constant="230" id="zMa-wI-0A3"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ybv-u5-Imd" customClass="ProgressView">
+                                <rect key="frame" x="83" y="179" width="210" height="210"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="七里香" translatesAutoresizingMaskIntoConstraints="NO" id="kot-oE-11T">
+                                <rect key="frame" x="87.5" y="183.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="djx-AZ-USu"/>
+                                    <constraint firstAttribute="height" constant="200" id="imu-lN-fZn"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2C-RR-Fcv">
+                                <rect key="frame" x="162" y="258" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Agy-JZ-GmP"/>
+                                    <constraint firstAttribute="height" constant="50" id="zIh-4Z-mh2"/>
+                                </constraints>
+                                <state key="normal" image="pause"/>
+                                <state key="selected" image="play"/>
+                                <connections>
+                                    <action selector="playOrPause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meP-Zf-CWS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kd5-3g-sbb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Wq-PC-yhC"/>
+                            <constraint firstItem="Ybv-u5-Imd" firstAttribute="trailing" secondItem="Lyf-JR-RB0" secondAttribute="trailing" constant="-10" id="6mf-T2-ekN"/>
+                            <constraint firstItem="Lyf-JR-RB0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="7dR-5n-kxP"/>
+                            <constraint firstItem="kd5-3g-sbb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="806-t3-UwY"/>
+                            <constraint firstItem="kot-oE-11T" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="8E8-Wy-WWl"/>
+                            <constraint firstAttribute="trailing" secondItem="kd5-3g-sbb" secondAttribute="trailing" id="8oY-PN-JAd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kd5-3g-sbb" secondAttribute="bottom" id="DF5-Hl-5eq"/>
+                            <constraint firstAttribute="trailing" secondItem="TlF-tH-TzE" secondAttribute="trailing" id="GSr-dk-ppx"/>
+                            <constraint firstItem="q2C-RR-Fcv" firstAttribute="centerY" secondItem="kot-oE-11T" secondAttribute="centerY" id="IKP-Wi-uc5"/>
+                            <constraint firstItem="Ybv-u5-Imd" firstAttribute="top" secondItem="Lyf-JR-RB0" secondAttribute="top" constant="10" id="Imc-Vh-Yg0"/>
+                            <constraint firstItem="TlF-tH-TzE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SNJ-Wn-FXa"/>
+                            <constraint firstItem="q2C-RR-Fcv" firstAttribute="centerX" secondItem="kot-oE-11T" secondAttribute="centerX" id="UiT-wi-9v3"/>
+                            <constraint firstItem="kot-oE-11T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAm-jN-DUB"/>
+                            <constraint firstItem="Lyf-JR-RB0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cyZ-iN-4Pj"/>
+                            <constraint firstItem="Ybv-u5-Imd" firstAttribute="bottom" secondItem="Lyf-JR-RB0" secondAttribute="bottom" constant="-10" id="ggb-eo-Wme"/>
+                            <constraint firstItem="TlF-tH-TzE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="j8u-lO-uS7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TlF-tH-TzE" secondAttribute="bottom" id="oCe-3z-L7Y"/>
+                            <constraint firstItem="Ybv-u5-Imd" firstAttribute="leading" secondItem="Lyf-JR-RB0" secondAttribute="leading" constant="10" id="xhp-HY-K48"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CDImageView" destination="kot-oE-11T" id="XZM-FA-qbO"/>
+                        <outlet property="PlayBtn" destination="q2C-RR-Fcv" id="AqG-wY-cOY"/>
+                        <outlet property="ProgressView" destination="Ybv-u5-Imd" id="BHs-0Q-wE1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Oval" width="150" height="150"/>
+        <image name="pause" width="50" height="50"/>
+        <image name="play" width="50" height="50"/>
+        <image name="七里香" width="903" height="1001"/>
+    </resources>
+</document>
